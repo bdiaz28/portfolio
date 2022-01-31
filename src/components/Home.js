@@ -1,4 +1,5 @@
 import React from "react";
+import profilepic from "../images/profilepic.jpg"
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./profilepic.jpg"
+            src={profilepic}
           />
         </div>
       </div>
