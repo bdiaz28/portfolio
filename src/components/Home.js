@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../images/profilepic.jpg"
+import profilepic from "../images/profilepic.jpeg"
 
 export default function Home() {
   return (
@@ -9,16 +9,11 @@ export default function Home() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Brittany.
             <br className="hidden lg:inline-block" />I am a junior full-stack web developer.          </h1>
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
-          </p>
           <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              Contact Me
             </a>
             <a
               href="#projects"
