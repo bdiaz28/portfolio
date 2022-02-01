@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Electro-Enthusiast",
+    subtitle: "Interactive Full-Stack Group Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A community review forum for electronic enthusiasts. A place to discuss new launches, review products, and everything in between.",
+    image: "./electroEnthusiast.jpeg",
+    link: "https://electroenthusiast.herokuapp.com/login",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Brittany's Beauty Blog",
+    subtitle: "CMS-style Blog Site",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
+    image: "./beautyblog.jpg",
+    link: "https://brittanysbeautyblog.herokuapp.com/login",
   },
   {
     title: "DevChat",
@@ -33,28 +33,19 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
 
 export const skills = [
   "JavaScript",
+  "MongoDB",
+  "Express.js",
   "React",
-  "Next.js",
   "Node",
   "GraphQL",
+  "jQuery",
+  "MySQL",
+  "Sequelize",
+  "CSS",
+  "Bootstrap",
+  "Semantic UI",
   "Material UI",
 ];
