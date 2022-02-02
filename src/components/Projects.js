@@ -1,6 +1,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import {FaGithub} from 'react-icons/fa'
 
 export default function Projects() {
   return (
@@ -14,6 +15,11 @@ export default function Projects() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here is a collection of collaborative group and individual projects completed during and after Coding bootcamp.
           </p>
+          <br />
+          <a href="https://github.com/bdiaz28" target="_blank" rel="noopener noreferrer" className="mr-5 inline-block hover:text-white">
+          
+          <FaGithub className="inline-block w-6 h-6" /> Check out my codes on Github!  
+          </a>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
