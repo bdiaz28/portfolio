@@ -11,25 +11,25 @@ export const projects = [
     title: "Brittany's Beauty Blog",
     subtitle: "CMS-style Blog Site",
     description:
-      "MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
+      "MVC paradigm in its architectural structure, using Handlebars.js, Sequelize, and express for authentication",
     image: "./beautyblog.jpg",
     link: "https://brittanysbeautyblog.herokuapp.com/login",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Regex Tutorial",
+    subtitle: "Matching an Email",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Checkout my Github gist that contains my tutorial Markdown!",
+    image: "./regex.jpg",
+    link: "https://gist.github.com/bdiaz28/52bad026f6a57fcef30eb21a9be660f3",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Charlotte's Craft Critic",
+    subtitle: "A collaborative front-end group project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "A place for newcomers of the Queen City to find what Charlotte's best known for, craft beer breweries!",
+    image: "./craftcritic.jpg",
+    link: "https://bdiaz28.github.io/Project-1v3/",
   },
 ];
 

@@ -20,8 +20,12 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+    .then(() => alert("Message sent!"))
+    .then((result) => {
+        window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+    }, (error) => {
+        console.log(error.text);
+    });
   }
 
   return (
@@ -29,8 +33,8 @@ export default function Contact() {
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
-            width="100%"
-            height="100%"
+            width="75%"
+            height="75%"
             title="map"
             className="absolute inset-0"
             frameBorder={0}
@@ -53,7 +57,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a  href="mailto:brittanymdiaz@yahoo.com" className="text-indigo-400 leading-relaxed">
                 brittanymdiaz@yahoo.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -114,7 +118,7 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            SEND EMAIL
+            Send
           </button>
         </form>
       </div>
