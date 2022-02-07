@@ -16,9 +16,9 @@ export default function Projects() {
             Here is a collection of collaborative group and individual projects completed during and after Coding bootcamp.
           </p>
           <br />
-          <a href="https://github.com/bdiaz28" target="_blank" rel="noopener noreferrer" className="mr-5 inline-block hover:text-white">
+          <a href="https://github.com/bdiaz28" target="_blank" rel="noopener noreferrer" className="mr-5 inline-block hover:text-white text-green-700">
           
-          <FaGithub className="inline-block w-6 h-6" /> Check out my codes on Github!  
+          <FaGithub className="inline-block hover:text-white w-6 h-6 text-green-700" /> Check out my codes on Github!  
           </a>
         </div>
         <div className="flex flex-wrap -m-4">
