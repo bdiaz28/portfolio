@@ -13,7 +13,6 @@ export default function About() {
             <br className="hidden lg:inline-block" /></h1>
           <p className="mb-8 leading-relaxed">
           I am a junior full-stack web developer who couldn't be more excited to step into the big world of coding and make a positive impact.
-          I am a US Navy Veteran. I loved and excelled in my role as a Logistics Specialist. Out of all the places I've lived so far, my favorite place was Oahu, HI. 
           My hobbies are meditating, yoga, being active, and reading. My newest hobby is gardening. My passion is learning. I'm always striving to know 'whats next.'  
           </p>
 
