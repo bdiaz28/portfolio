@@ -1,6 +1,6 @@
 import React from "react";
 import profilepic from "../images/profilepic.jpeg"
-import pdf from '../File/Resume_BDiaz.pdf'
+import pdf from '../File/BDResume.pdf'
 
 export default function Home() {
   return (
