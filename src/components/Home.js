@@ -17,7 +17,7 @@ export default function Home() {
             <br className="hidden lg:inline-block" /> I am a junior full-stack web developer.          </h1>
           <div className="flex justify-center">
             <a
-              href={pdf} target="_blank" download="Resume_BDiaz.pdf"
+              href={pdf} target="_blank" download="BDResume.pdf"
               className="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg">
               Download Resume
             </a>
