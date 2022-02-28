@@ -1,6 +1,6 @@
 import React from "react";
 import profilepic from "../images/profilepic.jpeg"
-import pdf from '../File/BDResume.pdf'
+import pdf from '../File/ResumeBMD.pdf'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
             <br className="hidden lg:inline-block" /> I am a junior full-stack web developer.          </h1>
           <div className="flex justify-center">
             <a
-              href={pdf} target="_blank" download="BDResume.pdf"
+              href={pdf} target="_blank" download="BDiazResume.pdf"
               className="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg">
               Download Resume
             </a>
